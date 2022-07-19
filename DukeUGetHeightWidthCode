@@ -1,0 +1,17 @@
+// No implementation for SimpleImage Methods; library abstracted * README.md *
+function  getw(x) {
+    var image = new SimpleImage("dinos.png");
+    var a = image.getWidth();
+    return a;
+  }
+  
+function geth(y) {
+    var image = new SimpleImage("dinos.png");
+    var b = image.getHeight();
+    return b;
+}  
+ 
+var image = getw(image);
+print (image);
+var image = geth(image);
+print (image);
